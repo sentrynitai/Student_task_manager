@@ -1,7 +1,7 @@
 # Student Task Manager
 
-A beginner-friendly task management web application built with **HTML, CSS, and TypeScript**.  
-The project helps students create, manage, filter, and track their daily tasks.
+A task management web application built with **HTML, CSS, and TypeScript**.  
+This project helps students create, manage, filter, and track their daily tasks.
 
 ## Features
 
