@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Student Task Manager</h1>
+            <button id="themeBtn">🌙</button>
+        </div>
+
+        <div class="task-input">
+            <input 
+                type="text" 
+                id="taskInput" 
+                placeholder="Enter a task..."
+            >
+
+            <button id="addTaskBtn">
+                Add Task
+            </button>
+        </div>
+
+        <div class="filters">
+            <button id="allBtn">All</button>
+            <button id="pendingBtn">Pending</button>
+            <button id="completedBtn">Completed</button>
+        </div>
+
+        <div id="taskList"></div>
+
+        <div class="stats">
+            <p>Total: <span id="totalTasks">0</span></p>
+            <p>Completed: <span id="completedTasks">0</span></p>
+            <p>Pending: <span id="pendingTasks">0</span></p>
+        </div>
+
+        <div id="alertBox"></div>
+
+    </div>
+
+    <script type="module" src="./dist/app.js"></script>
+
+</body>
+</html>
